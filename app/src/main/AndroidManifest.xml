@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.andro.myappyy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Main3Activitycloud_retrieve"></activity>
+        <activity android:name=".Main3Activitycloud" />
+        <activity android:name=".cloud_options" />
+        <activity android:name=".Developer_team" />
+        <activity android:name=".Loginpage" />
+        <activity android:name=".Aboutapp" />
+        <activity android:name=".Anim_options" />
+        <activity android:name=".Main3Activityanim_retrieve" />
+        <activity android:name=".Main3Activityanim" />
+        <activity android:name=".null_options" />
+        <activity android:name=".Main3Activitynull_retrieve" />
+        <activity android:name=".Main3Activitynull" />
+        <activity android:name=".Main3Activitydaa_retrieve" />
+        <activity android:name=".Main3Activitydaa" />
+        <activity android:name=".Daa_options" />
+        <activity android:name=".Activity_setup" />
+        <activity android:name=".SliderAdapter1" />
+        <activity android:name=".SliderAdapter" />
+        <activity android:name=".Deleting_post" />
+        <activity android:name=".Report" />
+        <activity android:name=".Piechart" />
+        <activity android:name=".images_display" />
+        <activity android:name=".add_images" />
+        <activity android:name=".resetpassword" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Edit_event_details" />
+        <activity android:name=".Android_details_student" />
+        <activity android:name=".Main3Activity_dsc_retrieve_student" />
+        <activity android:name=".Main3Activity_web_retrieve_student" />
+        <activity android:name=".Main3Activity_iot_retrieve_student" />
+        <activity android:name=".Main3Activitymalai_retrieve_student" />
+        <activity android:name=".Main3activityand_retrieve_student" />
+        <activity android:name=".Main3activityieee_retrieve_student" />
+        <activity android:name=".Main3activityiste_retrieve_student" />
+        <activity android:name=".Main3Activitycsi_retrieve_student" />
+        <activity android:name=".Main3Activity_acm_retrieve_student" />
+        <activity android:name=".Finish" />
+        <activity android:name=".Student_attendance" />
+        <activity android:name=".Acm_options" />
+        <activity android:name=".Iste_options" />
+        <activity android:name=".Ieee_options" />
+        <activity android:name=".Csi_options" />
+        <activity android:name=".Dsc_options" />
+        <activity android:name=".Web_options" />
+        <activity android:name=".Iot_options" />
+        <activity android:name=".Malai_options" />
+        <activity android:name=".faculty_options" />
+        <activity android:name=".Eventss_display" />
+        <activity android:name=".Android_details" />
+        <activity android:name=".Setupactivity_student" />
+        <activity android:name=".student_register" />
+        <activity android:name=".student_login" />
+        <activity android:name=".Main3Activityacm_retrieve" />
+        <activity android:name=".Main3Activityiste_retrieve" />
+        <activity android:name=".Main3Activitycsi_retrieve" />
+        <activity android:name=".Main3Activityieee_retrieve" />
+        <activity android:name=".Main3Activitydsc_retrieve" />
+        <activity android:name=".Main3Activityiot_retrieve" />
+        <activity android:name=".Main3Activityweb_retrieve" />
+        <activity android:name=".Main3Activityand_retrieve" />
+        <activity android:name=".Main3Activityieee" />
+        <activity android:name=".Main3Activityacm" />
+        <activity android:name=".Main3Activityiste" />
+        <activity android:name=".Main3Activitycsi" />
+        <activity android:name=".Main3Activitydsc" />
+        <activity android:name=".Main3Activityweb" />
+        <activity android:name=".Main3Activityiot" />
+        <activity android:name=".Main3Activitymalai_retrieve" />
+        <activity android:name=".Main3Activitymalai" />
+        <activity android:name=".Main3Activityand" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
